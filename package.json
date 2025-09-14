@@ -1,0 +1,42 @@
+{
+  "name": "aab_fullstack_aletheia_core",
+  "version": "1.0.0",
+  "description": "AppSolve Application Blocks - Aletheia Core TypeScript Types and Utilities",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run clean && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.2.0",
+    "typescript": "^5.9.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmeegamarachchi/aab_fullstack_aletheia_core.git"
+  },
+  "keywords": [
+    "typescript",
+    "interfaces",
+    "types",
+    "utilities",
+    "aletheia",
+    "appsolve",
+    "application-blocks",
+    "fullstack",
+    "core"
+  ],
+  "author": "Chintana Meegamarachchi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cmeegamarachchi/aab_fullstack_aletheia_core/issues"
+  },
+  "homepage": "https://github.com/cmeegamarachchi/aab_fullstack_aletheia_core#readme"
+}
